@@ -1,0 +1,25 @@
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+Init id: 2 name: priya
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+Init id: 2 name: priya
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+Init id: 2 name: priya
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
+Init id: 2 name: priya
+{'name': 'priya', 'email': 'priya@gmail.com', 'mobile': 9739288488.0, '_id': 2, 'apt_no': 100, 'password': 'priya', 'primary': True}
