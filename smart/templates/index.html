@@ -1,0 +1,167 @@
+{% extends "layout.html" %}
+{% block header %}
+    <div class="container">
+        <div class="intro-text">
+        {% if current_user.is_authenticated %}
+        <div class="intro-heading">Welcome {{ current_user.name }}</div>
+        <!--div class="intro-lead-in">Last month water usage: {{usage.last_total}} Ltr</div-->
+         <div class="intro-lead-in">Current month water usage: {{usage.current}} Ltr</div>
+
+        </div>
+        {% endif %}
+    </div>
+        </header>
+{% endblock %}
+{% block body %}
+
+    <div id="monthly_usage" class="container section" border="5">
+        <div class="row">
+            <div class="col-sm-4 section-title">
+                Monthly Water Consumption
+            </div>
+            <div class="col-sm-8">
+                <div id="monthly_usage_chart" class="chart" ></div>
+            </div>
+        </div>
+    </div>
+    <div id="weekly_usage" class="container section"  border="5">
+        <div class="row">
+            <div class="col-sm-4  section-title">
+                Weekly Water Consumption
+            </div>
+            <div class="col-sm-8">
+                <div id="weekly_usage_chart" class="chart"></div>
+            </div>
+        </div>
+    </div>
+    <div >
+        {{usage.monthly}}
+    </div>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['bar']});
+        google.charts.setOnLoadCallback(drawMonthlyUsage);
+        google.charts.setOnLoadCallback(drawWeeklyUsage);
+
+        $(window).resize(function(){
+            drawMonthlyUsage();
+            drawWeeklyUsage();
+        });
+
+
+        var monthNames = ["January", "February", "March", "April", "May", "June",
+                          "July", "August", "September", "October", "November", "December"];
+
+        var weekNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ,"Saturday", "Sunday"];
+
+
+        function drawMonthlyUsage() {
+            var data = new google.visualization.arrayToDataTable([
+                ['Month', 'Volume'],
+                {% if current_user.is_authenticated %}
+                   {% for key in usage.monthly.keys()|sort: %}
+                         ["{{key.strftime("%b %Y")}}", {{usage.monthly[key]}}],
+                   {% endfor %}
+                {% endif %}
+/*
+                {% if current_user.is_authenticated %}
+                   {% for month,vol in usage.monthly.items(): %}
+                        ["monthNames[{{month}}-1]",{{vol}}],
+                   {% endfor %}
+                {% endif %}
+          */
+                ]);
+
+            console.log("-------");
+            console.log(data);
+            console.log("-------");
+
+
+            var options = {
+                title: "Water used in liters",
+                bar: {groupWidth: "95%"},
+                legend: { position: "none" },
+                hAxis: {
+                    title: 'Months',
+                    textStyle: {
+                        fontName: 'Chango',
+                        fontSize: '18'
+                    }
+                },
+                vAxis: {title: 'Vol in Ltr'},
+            };
+
+/*
+
+        var options = {
+            title: 'Water used in liters',
+            legend: { position: 'none' },
+            chart: { title: 'Water consumption',
+                     subtitle: 'Usage in liters' },
+            bars: 'vertical', // Required for Material Bar Charts.
+            axes: {
+                x: {
+                    0: { side: 'top', label: 'Volume in Liters'} // Top x-axis.
+                }
+            },
+
+        };
+*/
+            var chart = new google.charts.Bar(document.getElementById('monthly_usage_chart'));
+            chart.draw(data, options);
+        };
+
+        function drawWeeklyUsage() {
+            var data = new google.visualization.arrayToDataTable([
+                ['Month', 'Volume'],
+
+                {% if current_user.is_authenticated %}
+                   {% for week,vol in usage.weekly.items(): %}
+                        [weekNames[{{week}}],{{vol}}],
+                   {% endfor %}
+                {% endif %}
+                ]);
+
+            console.log("-------");
+            console.log(data);
+            console.log("-------");
+
+
+            var options = {
+                title: "Water used in liters",
+
+                bar: {groupWidth: "95%"},
+                legend: { position: "none" },
+                hAxis: {
+                    title: 'Months',
+                    textStyle: {
+                        fontName: 'Chango',
+                        fontSize: '18'
+                    }
+                },
+                vAxis: {title: 'Vol in Ltr'},
+            };
+
+/*
+
+        var options = {
+            title: 'Water used in liters',
+            legend: { position: 'none' },
+            chart: { title: 'Water consumption',
+                     subtitle: 'Usage in liters' },
+            bars: 'vertical', // Required for Material Bar Charts.
+            axes: {
+                x: {
+                    0: { side: 'top', label: 'Volume in Liters'} // Top x-axis.
+                }
+            },
+
+        };
+*/
+            var chart = new google.charts.Bar(document.getElementById('weekly_usage_chart'));
+            chart.draw(data, options);
+        };
+
+
+    </script>
+
+{% endblock %}

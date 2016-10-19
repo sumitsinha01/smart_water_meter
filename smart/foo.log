@@ -1,0 +1,93 @@
+{'name': 'priya', '_id': 2, 'password': 'priya', 'mobile': 9739288488.0, 'apt_no': 100, 'primary': True, 'email': 'priya@gmail.com'}
+Init id: 2 name: priya
+<flask_pymongo.PyMongo object at 0x106754c88>
+Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=True, connect=True, replicaset=None), 'swm')
+{'name': 'priya', '_id': 2, 'password': 'priya', 'mobile': 9739288488.0, 'apt_no': 100, 'primary': True, 'email': 'priya@gmail.com'}
+<class 'int'>
+Login Success
+Init id: 2 name: priya
+/
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'name': 'priya', '_id': 2, 'password': 'priya', 'mobile': 9739288488.0, 'apt_no': 100, 'primary': True, 'email': 'priya@gmail.com'}
+Init id: 2 name: priya
+priya@gmail.com
+{'name': 'priya', '_id': 2, 'password': 'priya', 'mobile': 9739288488.0, 'apt_no': 100, 'primary': True, 'email': 'priya@gmail.com'}
+2016-10-01 00:00:00
+2016-09-01 00:00:00
+{'name': 'priya', '_id': 2, 'password': 'priya', 'mobile': 9739288488.0, 'apt_no': 100, 'primary': True, 'email': 'priya@gmail.com'}
+2016-10-13 20:41:11.499891
+2016-09-30 00:00:00
+{'name': 'priya', '_id': 2, 'password': 'priya', 'mobile': 9739288488.0, 'apt_no': 100, 'primary': True, 'email': 'priya@gmail.com'}
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'primary': True, 'apt_no': 100, 'mobile': 9739288488.0, 'password': 'priya', '_id': 2, 'name': 'priya', 'email': 'priya@gmail.com'}
+Init id: 2 name: priya
+priya@gmail.com
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'password': 'priya', 'apt_no': 100, '_id': 2, 'name': 'priya', 'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'primary': True}
+Init id: 2 name: priya
+priya@gmail.com
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'primary': True, 'name': 'priya', 'password': 'priya', 'apt_no': 100, '_id': 2, 'mobile': 9739288488.0, 'email': 'priya@gmail.com'}
+Init id: 2 name: priya
+priya@gmail.com
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'primary': True, 'name': 'priya', 'password': 'priya', 'apt_no': 100, '_id': 2, 'mobile': 9739288488.0, 'email': 'priya@gmail.com'}
+Init id: 2 name: priya
+priya@gmail.com
+load user id: 2
+User.get id: 2
+<class 'str'>
+{'email': 'priya@gmail.com', 'mobile': 9739288488.0, 'password': 'priya', 'name': 'priya', '_id': 2, 'primary': True, 'apt_no': 100}
+Init id: 2 name: priya
+priya@gmail.com
+load user id: 2
+load user id: 10
+load user id: 10
+load user id: 10
+load user id: 10
+shyam@gmail.com
+load user id: 10
+shyam@gmail.com
+load user id: 10
+shyam@gmail.com
+load user id: 10
+shyam@gmail.com
+load user id: 10
+shyam@gmail.com
+load user id: 10
+shyam@gmail.com
+load user id: 10
+shyam@gmail.com
+load user id: 10
+User.get id: 10
+<class 'str'>
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+Init id: 10 name: shyam
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+load user id: 10
+User.get id: 10
+<class 'str'>
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+Init id: 10 name: shyam
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+load user id: 10
+User.get id: 10
+<class 'str'>
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+Init id: 10 name: shyam
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+load user id: 10
+User.get id: 10
+<class 'str'>
+{'mobile': 9739288488.0, 'primary': True, 'password': 'shyam', 'email': 'shyam@gmail.com', 'name': 'shyam', 'apt_no': 102, '_id': 10}
+Init id: 10 name: shyam

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block header %}
+
+<div class="container">
+
+<div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4"></div>
+
+
+    <form class="col-sm-4 col-md-4 col-lg-4" style="background-color:pink;margin-top:50px; padding: 50px; border:solid 2px black;" action="" method="post">
+    <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="username">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password" name=password>
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+              {% if error %}
+         <h1>{{error}}</h1>
+        {% endif %}
+    </form>
+    <div class="col-sm-4 col-md-4 col-lg-4"></div>
+</div>
+
+
+{% endblock %}
