@@ -3,6 +3,7 @@ from flask import Response, redirect, url_for, request, session, render_template
 import flask_login
 from flask_login import login_required, login_user, logout_user
 from smart import residents
+from smart import dashboard
 from smart.user import User
 
 
@@ -13,9 +14,10 @@ def home():
     current_user = flask_login.current_user
     app.logger.info(current_user)
     current_usage = residents.get_last_month_total_usage(current_user, 0)
+    last_month_usage = residents.get_last_month_total_usage(current_user,1)
     monthly_usage = residents.get_monthly_water_usage(current_user)
     weekly_usage = residents.get_weekly_water_usage(current_user)
-    return render_template('index.html', usage=dict(current=current_usage, monthly=monthly_usage, weekly=weekly_usage))
+    return render_template('index.html', usage=dict(current=current_usage, last=last_month_usage,monthly=monthly_usage, weekly=weekly_usage))
 
 
 # somewhere to login
@@ -38,7 +40,7 @@ def login():
         if resident and resident['primary'] and resident['password'] == password:
             app.logger.info("Login Success")
             # if password == "sumit":
-            user = User(resident['_id'], resident['name'])
+            user = User(resident)
             login_user(user)
             session['username'] = username
             # print("success")
@@ -49,7 +51,7 @@ def login():
             #    return flask.abort(400)
 
             # return redirect(next or url_for('home'))
-            #return redirect(request.args.get("next"))
+            # return redirect(request.args.get("next"))
             return redirect(url_for('home'))
         else:
             error = 'Invalid username/password'
@@ -66,6 +68,14 @@ def logout():
     return redirect(url_for('login'))
 
 
+# dashboard
+@app.route("/dashboard")
+@login_required
+def dashboard_page():
+    apt_list = dashboard.get_dashboard_apt_list()
+    return render_template('dashboard.html', apt_list=apt_list)
+
+
 # handle login failed
 @app.errorhandler(401)
 def page_not_found(e):
@@ -76,5 +86,6 @@ def page_not_found(e):
 @login_manager.user_loader
 def load_user(userid):
     app.logger.info("load user id: " + userid.__str__())
+    app.logger.info(session['username'])
     return User.get(userid)
 

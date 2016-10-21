@@ -1,175 +1,130 @@
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:21:02.357538
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:21:03.540555 2016-10-18 22:21:03.540555
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-Init id: 2 name: priya
-2/priya
-2
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:22:18.797395
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:22:19.964814 2016-10-18 22:22:19.964814
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-Init id: 2 name: priya
-2/priya
-2
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:23:27.886674
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:23:29.275485 2016-10-18 22:23:29.275485
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-Init id: 2 name: priya
-2/priya
-2
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:24:48.595976
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:24:49.811541 2016-10-18 22:24:49.811541
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-Init id: 2 name: priya
-2/priya
-2
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:25:11.533917
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:25:12.728681 2016-10-18 22:25:12.728681
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-Init id: 2 name: priya
-2/priya
-2
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:25:33.132806
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:25:34.367511 2016-10-18 22:25:34.367511
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-Init id: 2 name: priya
-2/priya
-2
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-18 22:26:28.023588
-2016-09-30 00:00:00
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-{'_id': 2, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, 'mobile': 9739288488.0, 'primary': True}
-2016-10-12 22:26:29.246818 2016-10-18 22:26:29.246818
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-Init id: 2 name: priya
-2/priya
-2
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-2016-10-18 22:29:00.768443
-2016-09-30 00:00:00
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-2016-10-12 22:29:01.809069 2016-10-18 22:29:01.809069
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-Init id: 2 name: priya
-2/priya
-2
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-2016-10-18 22:29:34.750456
-2016-09-30 00:00:00
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-{'primary': True, 'mobile': 9739288488.0, 'password': 'priya', 'email': 'priya@gmail.com', 'name': 'priya', 'apt_no': 100, '_id': 2}
-2016-10-12 22:29:35.807251 2016-10-18 22:29:35.807251
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-Init id: 2 name: priya
-2/priya
-2
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-2016-10-18 22:33:53.287990
-2016-09-30 00:00:00
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-2016-10-12 22:33:54.466881 2016-10-18 22:33:54.466881
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-Init id: 2 name: priya
-2/priya
-2
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-2016-10-18 22:37:45.163820
-2016-09-30 00:00:00
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-2016-10-12 22:37:46.334522 2016-10-18 22:37:46.334522
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-Init id: 2 name: priya
-2/priya
-2
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-2016-10-18 22:37:59.672080
-2016-09-30 00:00:00
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-{'mobile': 9739288488.0, 'email': 'priya@gmail.com', 'password': 'priya', 'primary': True, 'apt_no': 100, 'name': 'priya', '_id': 2}
-2016-10-12 22:38:00.877341 2016-10-18 22:38:00.877341
-[12, 13, 14, 15, 16, 17]
-load user id: 2
-User.get id: 2
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
 <class 'str'>
-{'primary': True, 'email': 'priya@gmail.com', 'apt_no': 100, 'password': 'priya', 'mobile': 9739288488.0, '_id': 2, 'name': 'priya'}
-Init id: 2 name: priya
-2/priya
-2
-{'primary': True, 'email': 'priya@gmail.com', 'apt_no': 100, 'password': 'priya', 'mobile': 9739288488.0, '_id': 2, 'name': 'priya'}
-2016-10-18 22:39:40.809917
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+load user id: 13
+raj@gmail.com
+User.get id: 13
+<class 'str'>
+{'password': 'raj', 'email': 'raj@gmail.com', 'mobile': 9739288488.0, '_id': 13, 'apt_no': 103, 'primary': True, 'name': 'raj'}
+13/raj
+2016-10-21 12:10:21.968632
 2016-09-30 00:00:00
-{'primary': True, 'email': 'priya@gmail.com', 'apt_no': 100, 'password': 'priya', 'mobile': 9739288488.0, '_id': 2, 'name': 'priya'}
-{'primary': True, 'email': 'priya@gmail.com', 'apt_no': 100, 'password': 'priya', 'mobile': 9739288488.0, '_id': 2, 'name': 'priya'}
-2016-10-12 22:39:42.018739 2016-10-18 22:39:42.018739
-[12, 13, 14, 15, 16, 17]
+2016-10-01 00:00:00
+2016-09-01 00:00:00
+2016-10-15 12:10:24.558710 2016-10-21 12:10:24.558710
+[15, 16, 17]
+load user id: 13
+raj@gmail.com
+User.get id: 13
+<class 'str'>
+{'password': 'raj', 'email': 'raj@gmail.com', 'mobile': 9739288488.0, '_id': 13, 'apt_no': 103, 'primary': True, 'name': 'raj'}
+<flask_pymongo.PyMongo object at 0x106757860>
+Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=True, connect=True, replicaset=None), 'swm')
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+<class 'int'>
+Login Success
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}
+0/apartment association
+2016-10-21 12:10:41.335980
+2016-09-30 00:00:00
+2016-10-01 00:00:00
+2016-09-01 00:00:00
+2016-10-15 12:10:46.123686 2016-10-21 12:10:46.123686
+[15, 16, 17]
+load user id: 0
+association@gmail.com
+User.get id: 0
+<class 'str'>
+{'password': 'admin123', 'email': 'association@gmail.com', 'mobile': 9739288488.0, '_id': 0, 'apt_no': 0, 'primary': True, 'passowrd': 'admin123', 'name': 'apartment association'}

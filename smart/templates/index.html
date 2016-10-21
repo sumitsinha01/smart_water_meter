@@ -1,17 +1,56 @@
 {% extends "layout.html" %}
+
+{% block nav %}
+ <nav role="navigation" class="navbar navbar-default navbar-custom">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div   class="navbar-header">
+
+        <button   type="button" data-target="#navbarCollapsePostLogin" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="{{url_for('home')}}" class="navbar-brand navbar-left">
+           Smart Water Meter</a>
+
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+    <div id="navbarCollapsePostLogin" class="collapse navbar-collapse navbar-right">
+         {% if current_user.is_authenticated %}
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#monthly_usage">Monthly Usage</a></li>
+            <li><a href="#weekly_usage">Weekly Usage</a></li>
+            <li><a href="#">Hourly Usage</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+        {% else %}
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login</a></li>
+        </ul>
+        {% endif %}
+
+    </div>
+</nav>
+{% endblock %}
+
 {% block header %}
     <div class="container">
         <div class="intro-text">
-        {% if current_user.is_authenticated %}
-        <div class="intro-heading">Welcome {{ current_user.name }}</div>
-        <!--div class="intro-lead-in">Last month water usage: {{usage.last_total}} Ltr</div-->
-         <div class="intro-lead-in">Current month water usage: {{usage.current}} Ltr</div>
+            <div class="intro-welcome">Welcome {{ current_user.name }}</div>
+            <div class="intro-usage">Last month water usage: {{usage.last}} Ltr</div>
+            <div class="intro-usage">Current month water usage: {{usage.current}} Ltr</div>
 
         </div>
+        {% if current_user.is_association() %}
+            <a href="{{ url_for('dashboard_page') }}" role="button"  class="btn btn-success btn-lg">Dashboard</a>
         {% endif %}
     </div>
-        </header>
 {% endblock %}
+
+
 {% block body %}
 
     <div id="monthly_usage" class="container section" border="5">

@@ -4,10 +4,14 @@ from flask_login import UserMixin
 
 # silly user model
 class User(UserMixin):
-    def __init__(self, id, name):
-        app.logger.info("Init id: " + id.__str__() + " name: " + name)
-        self.id = id
-        self.name = name
+    def __init__(self, usr):
+        self.id = usr['_id']
+        self.name = usr['name']
+        self.password = usr['password']
+        self.apt_no = usr['apt_no']
+        self.mobile = usr['mobile']
+        self.email = usr['email']
+        self.primary = usr['primary']
         self.active = True
 
     def is_active(self):
@@ -27,12 +31,15 @@ class User(UserMixin):
     def __repr__(self):
         return "%d/%s" % (self.id, self.name)
 
+    def is_association(self):
+        return self.id == 0
+
     def get(userid):
         app.logger.info("User.get id: " + userid.__str__())
         app.logger.info(type(userid))
         resident = app.mongo.db.residents.find_one({"_id": int(userid)})
         app.logger.info(resident)
         if resident:
-            return User(resident['_id'], resident['name'])
+            return User(resident)
         else:
             return None
